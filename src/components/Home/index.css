@@ -1,0 +1,177 @@
+.main-container {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #fafafa;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.home-container {
+  width: 90%;
+  margin-left: 200px;
+}
+
+.slick-prev:before {
+  color: black;
+}
+.slick-next:before {
+  color: black;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  margin-top: 200px;
+}
+.oval-icon {
+  margin-left: 70px;
+}
+
+.home-elements-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.failure-image {
+  height: 40%;
+  width: 40%;
+}
+
+.failure-message {
+  position: absolute;
+  left: 30.21%;
+  right: 30.14%;
+  top: 85.6%;
+  bottom: 32.71%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  color: #262626;
+}
+
+.retry-button {
+  margin-top: 70px;
+  height: 40px;
+  width: 150px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #4094ef;
+  border-radius: 5px;
+}
+
+.posts-container {
+  position: absolute;
+  width: 63.5%;
+  height: 866px;
+  left: 200px;
+  top: 300px;
+  list-style-type: none;
+}
+.post-item {
+  border: 1px solid #262626;
+  margin: 5px;
+  border-radius: 10px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.profile-image {
+  width: 50px;
+  border-radius: 70px;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  padding-left: 10px;
+
+  color: #262626;
+}
+.container {
+  margin: 10px;
+}
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+}
+.caption {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.comment-user-name {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.comment {
+  font-family: 'Roboto';
+}
+
+.created-post {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+
+  color: #989898;
+  padding-left: 40px;
+}
+.post-image {
+  width: 750px;
+  height: 400px;
+  left: 0px;
+  top: 59px;
+}
+
+.bs-heart-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.fa-reg-comment {
+  font-size: 20px;
+}
+.bi-share-icon {
+  font-size: 20px;
+}

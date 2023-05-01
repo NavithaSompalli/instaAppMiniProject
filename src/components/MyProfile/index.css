@@ -1,0 +1,176 @@
+.my-profile-container {
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.profile-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.post-follower-container {
+  margin-left: 40px;
+}
+
+.my-profile-pic {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 90px;
+}
+
+.my-profile-user-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.my-profile-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+
+  color: #262626;
+}
+
+.posts-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+}
+
+.my-profile-user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #262626;
+}
+
+.my-profile-user-bio {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #262626;
+}
+
+.my-profile-user-stories {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.my-profile-story-image {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.hr-line {
+  border: 0.5px solid #c6c6c8;
+}
+
+.grid-icon {
+  font-size: 20px;
+}
+.bs-grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.posts-grid-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  margin-left: 10px;
+
+  color: #262626;
+  align-self: center;
+}
+
+.my-profile-posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.my-post-image {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.no-post-yet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-profile-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 200px;
+}
+
+.no-post-yet-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  color: #262626;
+  position: absolute;
+  margin-top: 290px;
+}
+
+.bs-camera {
+  border: 1px solid #262626;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 200px;
+  position: absolute;
+}
